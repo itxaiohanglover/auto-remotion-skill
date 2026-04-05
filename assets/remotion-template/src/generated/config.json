@@ -1,0 +1,28 @@
+{
+  "topic": "example",
+  "style": "apple-presentation",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "scenes": [
+    {
+      "type": "intro",
+      "duration": 4,
+      "from": 0,
+      "durationInFrames": 120
+    },
+    {
+      "type": "data-dashboard",
+      "duration": 8,
+      "from": 120,
+      "durationInFrames": 240
+    },
+    {
+      "type": "outro",
+      "duration": 4,
+      "from": 360,
+      "durationInFrames": 120
+    }
+  ],
+  "durationInFrames": 480
+}

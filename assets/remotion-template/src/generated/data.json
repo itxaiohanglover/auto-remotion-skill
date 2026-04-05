@@ -1,0 +1,30 @@
+{
+  "title": "示例视频标题",
+  "subtitle": "这是副标题，可以从content.txt第一行提取",
+  "cards": [
+    {
+      "id": 0,
+      "label": "数据指标1",
+      "value": 50,
+      "suffix": "%"
+    },
+    {
+      "id": 1,
+      "label": "数据指标2",
+      "value": 100,
+      "suffix": "万"
+    },
+    {
+      "id": 2,
+      "label": "数据指标3",
+      "value": 120,
+      "suffix": "期"
+    },
+    {
+      "id": 3,
+      "label": "数据指标4",
+      "value": 30,
+      "suffix": "%"
+    }
+  ]
+}
