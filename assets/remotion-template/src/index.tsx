@@ -1,4 +1,4 @@
-import {Composition} from 'remotion';
+import {Composition, registerRoot} from 'remotion';
 import {Video} from './core/VideoEngine';
 import config from './generated/config.json';
 
@@ -17,3 +17,5 @@ export const RemotionRoot: React.FC = () => {
     />
   );
 };
+
+registerRoot(RemotionRoot);
